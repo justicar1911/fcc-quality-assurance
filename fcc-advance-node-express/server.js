@@ -2,10 +2,10 @@
 require('dotenv').config();
 const express = require('express');
 const myDB = require('./connection');
-const fccTesting = require('./freeCodeCamp/fcctesting.js');
+const fccTesting = require('../fcc-advance-node-express/freeCodeCamp/fcctesting.js');
 const session = require('express-session');
-const routes = require('./routes.js');
-const auth = require('./auth.js');
+const routes = require('../fcc-advance-node-express/routes.js');
+const auth = require('../fcc-advance-node-express/auth.js');
 const passport = require('passport');
 const PORT = process.env.PORT || 3000;
 const app = express();

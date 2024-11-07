@@ -24,7 +24,6 @@ function ConvertHandler() {
       return 'invalid'
     }
 
-
     return eval(initNum)
   };
 
